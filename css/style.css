@@ -22,7 +22,7 @@ h1 {
     color: #E53170;
 }
 
-.card-box h3 {
+.card-container h3 {
     font-size: 0.9rem;
     font-weight: 500;
     margin-top: 3em;
@@ -40,17 +40,17 @@ h1 {
 
 /* MAIN */
 
-.card h2 {
+.card-box h2 {
     font-size: 1.2rem;
 }
 
-.card h3{
+.card-box h3{
     margin-top: 0;
     font-weight: 200;
     font-size: 1rem;
 }
 
-.card a {
+.card-box a {
     color: #6ACBF2;
     font-size: 0.8rem;
     text-decoration: none;
@@ -58,20 +58,23 @@ h1 {
     margin: 0;
 }
 
-.card img {
+.card-box img {
     height: 80px;
     float: left;
 }
 
-.card {
-    border: 1px solid black;
+.card-box {
+    margin-top: 30px;
+    float: left;
     text-align: left;
     background-color: #0F0E17;
     color: white;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - (40px / 3)) ;
 }
 
-
+.card-box.middle {
+    margin: 30px 20px 0;
+}
 
 /* UTILITY */
 
