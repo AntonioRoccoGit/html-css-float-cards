@@ -26,6 +26,7 @@ h1 {
     font-size: 0.9rem;
     font-weight: 500;
     margin-top: 3em;
+    
   }
 
 .container {
@@ -34,14 +35,14 @@ h1 {
     font-size: 2rem;
     margin: 0 auto;
     text-align: center;
-    margin-top: 1em;
+    padding-top: 1em;
     position: relative;
 }        
 
 /* MAIN */
 
 .card-box img {
-    height: 100px;
+    height: 90px;
     float: left;
     margin-right: 10px;
 }    
